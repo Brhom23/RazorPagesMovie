@@ -12,9 +12,9 @@ namespace RazorPagesMovie.Pages.Movies
 {
     public class DetailsModel : PageModel
     {
-        private readonly RazorPagesMovie.Data.ContextSQL _context;
+        private readonly RazorPagesMovie.Data.MyContext _context;
 
-        public DetailsModel(RazorPagesMovie.Data.ContextSQL context)
+        public DetailsModel(RazorPagesMovie.Data.MyContext context)
         {
             _context = context;
         }

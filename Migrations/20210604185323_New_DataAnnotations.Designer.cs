@@ -9,7 +9,7 @@ using RazorPagesMovie.Data;
 
 namespace RazorPagesMovie.Migrations
 {
-    [DbContext(typeof(ContextSQL))]
+    [DbContext(typeof(MyContext))]
     [Migration("20210604185323_New_DataAnnotations")]
     partial class New_DataAnnotations
     {

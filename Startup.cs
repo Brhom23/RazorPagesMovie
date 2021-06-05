@@ -36,7 +36,7 @@ namespace RazorPagesMovie
             //services.AddDbContext<ContextSQL>(options =>
             //        options.UseSqlServer(Configuration.GetConnectionString("RazorPagesMovieContext")));
             //أو تأتي من عبارة نصية مثل هذه
-            services.AddDbContext<ContextSQL>(options =>
+            services.AddDbContext<MyContext>(options =>
                     options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Movie;Trusted_Connection=True;MultipleActiveResultSets=true"));
         }
 

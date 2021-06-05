@@ -11,9 +11,9 @@ namespace RazorPagesMovie.Data
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new ContextSQL(
+            using (var context = new MyContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<ContextSQL>>()))
+                    DbContextOptions<MyContext>>()))
             {
                 // Look for any movies.
                 if (context.Movie.Any())

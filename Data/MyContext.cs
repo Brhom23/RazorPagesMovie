@@ -17,9 +17,9 @@ using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie.Data
 {
-    public class ContextSQL : DbContext
+    public class MyContext : DbContext
     {
-        public ContextSQL (DbContextOptions<ContextSQL> options)
+        public MyContext (DbContextOptions<MyContext> options)
             : base(options)
         {
         }

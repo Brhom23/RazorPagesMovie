@@ -13,9 +13,9 @@ namespace RazorPagesMovie.Pages.Movies
 {
     public class IndexModel : PageModel
     {
-        private readonly RazorPagesMovie.Data.ContextSQL _context;
+        private readonly RazorPagesMovie.Data.MyContext _context;
 
-        public IndexModel(RazorPagesMovie.Data.ContextSQL context)
+        public IndexModel(RazorPagesMovie.Data.MyContext context)
         {
             _context = context;
         }

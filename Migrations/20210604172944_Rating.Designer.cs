@@ -9,7 +9,7 @@ using RazorPagesMovie.Data;
 
 namespace RazorPagesMovie.Migrations
 {
-    [DbContext(typeof(ContextSQL))]
+    [DbContext(typeof(MyContext))]
     [Migration("20210604172944_Rating")]
     partial class Rating
     {

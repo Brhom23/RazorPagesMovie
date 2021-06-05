@@ -8,7 +8,7 @@ using RazorPagesMovie.Data;
 
 namespace RazorPagesMovie.Migrations
 {
-    [DbContext(typeof(ContextSQL))]
+    [DbContext(typeof(MyContext))]
     partial class ContextSQLModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
