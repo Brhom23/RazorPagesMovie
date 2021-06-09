@@ -9,7 +9,12 @@ namespace RazorPagesMovie.Models
 {
     public class Movie
     {
-        public int ID { get; set; }
+        //بشكل افتراضي ، يفسر
+        //EF Core
+        //خاصية تسمى
+        //ID أو classnameID
+        //كمفتاح أساسي.
+        public int ID { get; set; } //or public int MovieID { get; set; }
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string Title { get; set; }

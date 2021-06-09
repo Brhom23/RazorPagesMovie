@@ -1,4 +1,8 @@
-﻿using System;
+﻿///لإنشاء الصفحات تلقائي بالسقالة اولا يجب عمل المجلد ثم اضافةسقالة جيدة
+///إن لم تنجح عمل السقالة جيب مسح من النجت 
+///Microsoft.VisualStudio.Web.CodeGeneration.Design
+///ثم إضافتها من جديد ثم إعادة المحاولة مرة اخرى
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
